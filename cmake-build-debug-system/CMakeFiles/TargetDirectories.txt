@@ -1,0 +1,3 @@
+/Users/a18362141/CLionProjects/untitled1/cmake-build-debug-system/CMakeFiles/untitled1.dir
+/Users/a18362141/CLionProjects/untitled1/cmake-build-debug-system/CMakeFiles/edit_cache.dir
+/Users/a18362141/CLionProjects/untitled1/cmake-build-debug-system/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=MinSizeRel -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/a18362141/CLionProjects/untitled1 -B /Users/a18362141/CLionProjects/untitled1/cmake-build-minsizerel-system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/a18362141/CLionProjects/untitled1/cmake-build-minsizerel-system
