@@ -11,33 +11,7 @@ struct scannedStruct {
    int firstIndex;
 };
 int main(void) {
-    //int (*p)[5] = mprmpr;
-    // p = (int(*)[5]);
-    //int (*p)[5] = (int(*)[5])mprmpr; //(int)는 형변환. [5] 배열단위 설정
-
-    /*int count = 1;
-    for (int i = 0; i <5 ; i++) {
-        for (int j = 0; j < 5; j++) {
-            //(p[i]+j) = count++;
-            *(p[i][j]) = count++;
-            printf("%3d", *(p[i][j]));
-        }
-        printf("\n");
-    }*/
-
-    // #문자열 5개를 입력받아 문자의 개수가 가장 긴 문자열부터 작은 문자열 순으로 나열하여 출력. 문자열 문자개수 20개.
-
-    //char (*p)[5] = (char(*))malloc(sizeof(char)*100 );//우리가 하고싶은 형태.
-
-    //말록 배열형 테스트
-
-    //char (*p)[5] = (char(*)[20])malloc(sizeof(char)*100 ); //도대체이건 왜 안되냐?
-
-    //int (*pii)[5][20] = (int(*))malloc(sizeof(int)*100 );           // 이건 틀린 코드 x
-    //int (*pii) = (int(*)[5][20])malloc(sizeof(int)*100 );          //이건 틀린 코드 x 맨 앞 괄호 빼도 마찬가지.
-    //int (*p)[0] = (int(*)[5][20])malloc(sizeof(int)*100 );    // 이건 올바른 코드o
-    //int (*p)[5] = (int(*)[20])malloc(sizeof(int)*100 );           // 이건 올바른 코드o
-    struct scannedStruct pStruct[5];
+   struct scannedStruct pStruct[5];
     struct scannedStruct temp;
     char p[5][20];
     int i,j,count = 0;
@@ -90,6 +64,6 @@ int main(void) {
         }
 
     //printf("\n%d", '\0');
-    //2302040120 added
+    //230204_0143 added
     return 0;
 }
